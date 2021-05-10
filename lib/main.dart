@@ -83,37 +83,38 @@ class Inicio extends StatelessWidget {
           children: <Widget>[
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
-              Column(
-                children: <Widget>[
-                  Padding(
-                    padding: EdgeInsets.all(10),
-                    child: RaisedButton(
-                      color: Colors.white,
-                      shape: new RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(10.0),
-                      ),
-                      onPressed: (){
-                        Navigator.pushNamed(context, "/inicio");
-                      },
-                      child: SizedBox(
-                        width: 100.0,
-                        height: 100.0,
-                        child: Center(
-                          child: Text(
-                            "INICIO",
-                            textAlign: TextAlign.center ,
-                            style: TextStyle(
-                              color: Colors.teal,
-                              fontWeight: FontWeight.w900,
+              children: <Widget>[
+                Column(
+                  children: <Widget>[
+                    Padding(
+                      padding: EdgeInsets.all(10),
+                      child: RaisedButton(
+                        color: Colors.white,
+                        shape: new RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(10.0),
+                        ),
+                        onPressed: (){
+                          Navigator.pushNamed(context, "/inicio");
+                        },
+                        child: SizedBox(
+                          width: 100.0,
+                          height: 100.0,
+                          child: Center(
+                            child: Text(
+                              "INICIO",
+                              textAlign: TextAlign.center ,
+                              style: TextStyle(
+                                color: Colors.teal,
+                                fontWeight: FontWeight.w900,
+                              ),
                             ),
-                          ),
-                        ),//Center del texto
-                      ),
-                    ),//Boton 1
-                  )
-                ],
-              ),//Columna interna
-              
+                          ),//Center del texto
+                        ),
+                      ),//Boton 1
+                    )
+                  ],
+                ),//Columna interna
+              ],
             ),//Fila 1.1
           ],
         ),//Columna 1
