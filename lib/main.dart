@@ -79,6 +79,44 @@ class Inicio extends StatelessWidget {
           ),
           borderRadius: new BorderRadius.all(new Radius.circular(20.0)),
         ), //Fin de caja 
+        child: Column(
+          children: <Widget>[
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              Column(
+                children: <Widget>[
+                  Padding(
+                    padding: EdgeInsets.all(10),
+                    child: RaisedButton(
+                      color: Colors.white,
+                      shape: new RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(10.0),
+                      ),
+                      onPressed: (){
+                        Navigator.pushNamed(context, "/inicio");
+                      },
+                      child: SizedBox(
+                        width: 100.0,
+                        height: 100.0,
+                        child: Center(
+                          child: Text(
+                            "INICIO",
+                            textAlign: TextAlign.center ,
+                            style: TextStyle(
+                              color: Colors.teal,
+                              fontWeight: FontWeight.w900,
+                            ),
+                          ),
+                        ),//Center del texto
+                      ),
+                    ),//Boton 1
+                  )
+                ],
+              ),//Columna interna
+              
+            ),//Fila 1.1
+          ],
+        ),//Columna 1
       ), //Fin del contenedor
     ); //Fin de scaffold
   } //Fin de widget
