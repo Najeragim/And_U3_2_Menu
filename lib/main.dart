@@ -32,7 +32,7 @@ class Empresa extends StatelessWidget {
         centerTitle: true,
       ), // Fin de appbar
       body: Center(
-        child: Text('Sección\nEmpresa',textAlign: TextAlign.center,),
+        child: Text('Sección\nEmpresa\nNajera',textAlign: TextAlign.center,),
       ), //Fin de body center
     ); //Fin de Scaffold
   } //Fin de widget
@@ -47,7 +47,7 @@ class Productos extends StatelessWidget {
         centerTitle: true,
       ), // Fin de appbar
       body: Center(
-        child: Text('Sección\nProductos', textAlign: TextAlign.center,),
+        child: Text('Sección\nProductos\nNajera', textAlign: TextAlign.center,),
       ), //Fin de body center
     ); //Fin de Scaffold
   } //Fin de widget
@@ -62,7 +62,7 @@ class Contacto extends StatelessWidget {
         centerTitle: true,
       ), // Fin de appbar
       body: Center(
-        child: Text('Sección\nContacto', textAlign: TextAlign.center,),
+        child: Text('Sección\nContacto\Najera', textAlign: TextAlign.center,),
       ), //Fin de body center
     ); //Fin de Scaffold
   } //Fin de widget
