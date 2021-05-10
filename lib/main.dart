@@ -29,9 +29,10 @@ class Empresa extends StatelessWidget {
     return new Scaffold(
       appBar: AppBar(
         title: new Text('Nuestra Empresa'),
+        centerTitle: true,
       ), // Fin de appbar
       body: Center(
-        child: Text('Sección\nEmpresa'),
+        child: Text('Sección\nEmpresa',textAlign: TextAlign.center,),
       ), //Fin de body center
     ); //Fin de Scaffold
   } //Fin de widget
@@ -43,9 +44,10 @@ class Productos extends StatelessWidget {
     return new Scaffold(
       appBar: AppBar(
         title: new Text('Nuestros Productos'),
+        centerTitle: true,
       ), // Fin de appbar
       body: Center(
-        child: Text('Sección\nProductos'),
+        child: Text('Sección\nProductos', textAlign: TextAlign.center,),
       ), //Fin de body center
     ); //Fin de Scaffold
   } //Fin de widget
@@ -57,9 +59,10 @@ class Contacto extends StatelessWidget {
     return new Scaffold(
       appBar: AppBar(
         title: new Text('Contáctanos'),
+        centerTitle: true,
       ), // Fin de appbar
       body: Center(
-        child: Text('Sección\nContacto'),
+        child: Text('Sección\nContacto', textAlign: TextAlign.center,),
       ), //Fin de body center
     ); //Fin de Scaffold
   } //Fin de widget
