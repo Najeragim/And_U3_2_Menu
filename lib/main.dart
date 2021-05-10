@@ -78,7 +78,7 @@ class Inicio extends StatelessWidget {
             alignment: Alignment.topCenter,
           ),
           borderRadius: new BorderRadius.all(new Radius.circular(20.0)),
-        ), //Fin de caja 
+        ), //Fin de caja
         child: Column(
           children: <Widget>[
             Row(
@@ -93,7 +93,7 @@ class Inicio extends StatelessWidget {
                         shape: new RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(10.0),
                         ),
-                        onPressed: (){
+                        onPressed: () {
                           Navigator.pushNamed(context, "/inicio");
                         },
                         child: SizedBox(
@@ -102,18 +102,18 @@ class Inicio extends StatelessWidget {
                           child: Center(
                             child: Text(
                               "INICIO",
-                              textAlign: TextAlign.center ,
+                              textAlign: TextAlign.center,
                               style: TextStyle(
                                 color: Colors.teal,
                                 fontWeight: FontWeight.w900,
                               ),
                             ),
-                          ),//Center del texto
+                          ), //Center del texto
                         ),
-                      ),//Boton 1
-                    )//Padding
+                      ), //Boton 1
+                    ) //Padding
                   ],
-                ),//Columna interna C1
+                ), //Columna interna C1
                 Column(
                   children: <Widget>[
                     Padding(
@@ -134,11 +134,11 @@ class Inicio extends StatelessWidget {
                       ),
                     )
                   ],
-                ),//Columna interna C2
-              ],//Widget []        
-            ),//Fila 1
+                ), //Columna interna C2
+              ], //Widget []
+            ), //Fila 1
           ],
-        ),//Columna principal
+        ), //Columna principal
       ), //Fin del contenedor
     ); //Fin de scaffold
   } //Fin de widget
